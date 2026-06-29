@@ -1,15 +1,15 @@
 {
     "schema":  "OneRouteUpdate.v1",
-    "release":  "0.8.5.2",
+    "release":  "0.8.5.3",
     "android":  {
-                    "versionName":  "0.8.5.2",
-                    "versionCode":  49,
+                    "versionName":  "0.8.5.3",
+                    "versionCode":  50,
                     "asset":  "OneRoute.apk",
                     "apkUrl":  "https://github.com/kolyadkl/oneroute-updates/releases/latest/download/OneRoute.apk",
-                    "sha256":  "a83e0ba56a64337f5325a570bc8d3505339464574a03a9f8ed1383669c15c83e",
-                    "sizeBytes":  8553402,
+                    "sha256":  "b7d52136560e0e12b0603084092895870a80fe8e7ce41e116d823a3630292a3e",
+                    "sizeBytes":  8554155,
                     "notes":  [
-                                  "OneRoute 0.8.5.2 - GitHub Updates Release Flow / APK Update Polish"
+                                  "OneRoute 0.8.5.3 - GitHub Updates Release Flow / APK Update Polish"
                               ]
                 }
 }
