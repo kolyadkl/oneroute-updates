@@ -1,15 +1,15 @@
 {
     "schema":  "OneRouteUpdate.v1",
-    "release":  "0.8.9.0",
+    "release":  "0.8.10.0",
     "android":  {
-                    "versionName":  "0.8.9.0",
-                    "versionCode":  101,
+                    "versionName":  "0.8.10.0",
+                    "versionCode":  102,
                     "asset":  "OneRoute.apk",
                     "apkUrl":  "https://github.com/kolyadkl/oneroute-updates/releases/latest/download/OneRoute.apk",
-                    "sha256":  "deb366a8de661ec40f88c55c4ee877bab75473768382159a316b2cc12edd19c5",
-                    "sizeBytes":  8683237,
+                    "sha256":  "087b78c0c0701b90d1380b04b698c417b7431c22b5a4a056601a88e35fa99c4e",
+                    "sizeBytes":  8688347,
                     "notes":  [
-                                  "OneRoute 0.8.9.0 - VLESS Reality Engine / sing-box TUN Foundation"
+                                  "OneRoute 0.8.10.0 - sing-box Android Runtime Wiring"
                               ]
                 }
 }
