@@ -1,15 +1,15 @@
 {
     "schema":  "OneRouteUpdate.v1",
-    "release":  "0.8.10.0",
+    "release":  "0.8.11.0",
     "android":  {
-                    "versionName":  "0.8.10.0",
-                    "versionCode":  102,
+                    "versionName":  "0.8.11.0",
+                    "versionCode":  103,
                     "asset":  "OneRoute.apk",
                     "apkUrl":  "https://github.com/kolyadkl/oneroute-updates/releases/latest/download/OneRoute.apk",
-                    "sha256":  "087b78c0c0701b90d1380b04b698c417b7431c22b5a4a056601a88e35fa99c4e",
-                    "sizeBytes":  8688347,
+                    "sha256":  "75cb6a7ca703ad15d19ea581158efb64a26932685bb003c1caa2876a5a1e095b",
+                    "sizeBytes":  8692817,
                     "notes":  [
-                                  "OneRoute 0.8.10.0 - sing-box Android Runtime Wiring"
+                                  "OneRoute 0.8.11.0 - sing-box Binary / Runtime Integration"
                               ]
                 }
 }
