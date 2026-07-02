@@ -1,15 +1,15 @@
 {
     "schema":  "OneRouteUpdate.v1",
-    "release":  "0.8.11.0",
+    "release":  "0.8.12.0",
     "android":  {
-                    "versionName":  "0.8.11.0",
-                    "versionCode":  103,
+                    "versionName":  "0.8.12.0",
+                    "versionCode":  104,
                     "asset":  "OneRoute.apk",
                     "apkUrl":  "https://github.com/kolyadkl/oneroute-updates/releases/latest/download/OneRoute.apk",
-                    "sha256":  "75cb6a7ca703ad15d19ea581158efb64a26932685bb003c1caa2876a5a1e095b",
-                    "sizeBytes":  8692817,
+                    "sha256":  "1d4b89d08812f79a68e8498f12b6fe0b224c15f73a0c3dd6afeeeefce864846e",
+                    "sizeBytes":  8695559,
                     "notes":  [
-                                  "OneRoute 0.8.11.0 - sing-box Binary / Runtime Integration"
+                                  "OneRoute 0.8.12.0 - Android Packet Adapter / VpnService FD Wiring Research Build"
                               ]
                 }
 }
