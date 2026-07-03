@@ -1,15 +1,15 @@
 {
     "schema":  "OneRouteUpdate.v1",
-    "release":  "0.8.31.0",
+    "release":  "0.8.32.1",
     "android":  {
-                    "versionName":  "0.8.31.0",
-                    "versionCode":  123,
+                    "versionName":  "0.8.32.1",
+                    "versionCode":  125,
                     "asset":  "OneRoute.apk",
                     "apkUrl":  "https://github.com/kolyadkl/oneroute-updates/releases/latest/download/OneRoute.apk",
-                    "sha256":  "db5a3f2c06f77c7ddd9d57add682e03773dbe14316e6d5a55f19d808f4932cad",
-                    "sizeBytes":  8767378,
+                    "sha256":  "8c29df4f556341a0169792ace1807d2bff398127cce862018946af9a5c788e0c",
+                    "sizeBytes":  28743271,
                     "notes":  [
-                                  "OneRoute 0.8.31.0 - Trusted sing-box Binary Asset Integration Probe"
+                                  "OneRoute 0.8.32.1 - Trusted Asset Drop-in / SHA256 Manifest Fill / Runtime Candidate Visible"
                               ]
                 }
 }
