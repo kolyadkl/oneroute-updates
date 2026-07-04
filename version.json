@@ -1,15 +1,15 @@
 {
     "schema":  "OneRouteUpdate.v1",
-    "release":  "0.8.48.0",
+    "release":  "0.8.49.0",
     "android":  {
-                    "versionName":  "0.8.48.0",
-                    "versionCode":  146,
+                    "versionName":  "0.8.49.0",
+                    "versionCode":  147,
                     "asset":  "OneRoute.apk",
                     "apkUrl":  "https://github.com/kolyadkl/oneroute-updates/releases/latest/download/OneRoute.apk",
-                    "sha256":  "723526b93ee80543cedee16e500106ade73ad2ed7eba865e94ac7a3db28b5b56",
-                    "sizeBytes":  48801022,
+                    "sha256":  "42fc54df8aa145ec769fd1ad318d25d68c64c1e83f96d19844e8f68461d6feac",
+                    "sizeBytes":  48807016,
                     "notes":  [
-                                  "OneRoute 0.8.48.0 - sing-box 1.13 Legacy Inbound Fields Migration / Route Sniff Rule Probe"
+                                  "OneRoute 0.8.49.0 - Native Runtime Live FD Handoff Gate / Cached APK Update Button"
                               ]
                 }
 }
