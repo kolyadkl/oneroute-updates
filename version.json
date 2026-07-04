@@ -1,15 +1,15 @@
 {
     "schema":  "OneRouteUpdate.v1",
-    "release":  "0.8.50.0",
+    "release":  "0.8.51.0",
     "android":  {
-                    "versionName":  "0.8.50.0",
-                    "versionCode":  148,
+                    "versionName":  "0.8.51.0",
+                    "versionCode":  149,
                     "asset":  "OneRoute.apk",
                     "apkUrl":  "https://github.com/kolyadkl/oneroute-updates/releases/latest/download/OneRoute.apk",
-                    "sha256":  "8af22ead70bfb410960314b52d88e4c4639b147d14ac4687a5b76f69322dee53",
-                    "sizeBytes":  48809436,
+                    "sha256":  "a7d1427b0dd5bfd6a446edebf1aeddbad55c1968d2e49007da27b06f52a36253",
+                    "sizeBytes":  48814979,
                     "notes":  [
-                                  "OneRoute 0.8.50.0 - VLESS Live FD Final-State Reconcile / Persistent Cached Update Button"
+                                  "OneRoute 0.8.51.0 - VLESS Native Runtime FD EntryPoint Binding / JNI Boundary Probe"
                               ]
                 }
 }
