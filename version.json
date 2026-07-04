@@ -1,15 +1,15 @@
 {
     "schema":  "OneRouteUpdate.v1",
-    "release":  "0.8.40.1",
+    "release":  "0.8.41.0",
     "android":  {
-                    "versionName":  "0.8.40.1",
-                    "versionCode":  138,
+                    "versionName":  "0.8.41.0",
+                    "versionCode":  139,
                     "asset":  "OneRoute.apk",
                     "apkUrl":  "https://github.com/kolyadkl/oneroute-updates/releases/latest/download/OneRoute.apk",
-                    "sha256":  "827c943a6621f9341af082d203d59af0d124a1acbfa575e2a707197a28afd06a",
-                    "sizeBytes":  48757899,
+                    "sha256":  "7a416228fa615b66b47d84bedc3a4cda02a909d6eef0ba8b54e0d10f4907fe0f",
+                    "sizeBytes":  48764685,
                     "notes":  [
-                                  "OneRoute 0.8.40.1 - sing-box 1.13 Legacy Inbound Fields Migration / Route Sniff Rule Probe"
+                                  "OneRoute 0.8.41.0 - sing-box 1.13 Legacy Inbound Fields Migration / Route Sniff Rule Probe"
                               ]
                 }
 }
