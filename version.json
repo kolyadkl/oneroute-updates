@@ -1,15 +1,15 @@
 {
     "schema":  "OneRouteUpdate.v1",
-    "release":  "0.8.100.0",
+    "release":  "0.8.101.0",
     "android":  {
-                    "versionName":  "0.8.100.0",
-                    "versionCode":  200,
+                    "versionName":  "0.8.101.0",
+                    "versionCode":  201,
                     "asset":  "OneRoute.apk",
                     "apkUrl":  "https://github.com/kolyadkl/oneroute-updates/releases/latest/download/OneRoute.apk",
-                    "sha256":  "c50aadf2d831dc4aa48eff600230e56cfa95d93c9a8eb000e01770e5243b3217",
-                    "sizeBytes":  48962926,
+                    "sha256":  "a05f1e1f5b1ebdf322f97f250b9866bee6351fcdfe7367617b564015bc0bbaed",
+                    "sizeBytes":  48970936,
                     "notes":  [
-                                  "OneRoute 0.8.100.0 - VLESS Real FD JNI Sentinel Call / Java FD Close Proof"
+                                  "OneRoute 0.8.101.0 - VLESS Real FD JNI Sentinel Call / Java FD Close Proof"
                               ]
                 }
 }
