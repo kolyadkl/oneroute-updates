@@ -6,8 +6,8 @@
                     "versionCode":  263,
                     "asset":  "OneRoute.apk",
                     "apkUrl":  "https://github.com/kolyadkl/oneroute-updates/releases/latest/download/OneRoute.apk",
-                    "sha256":  "e49423548636ac518a148759a251f952dd551e7adb3736510bc176950fdeb60f",
-                    "sizeBytes":  49132803,
+                    "sha256":  "f5fa7274a2ed82713ebc5ad139991fbf2f6d3ebd536324e039d20f2a4a752160",
+                    "sizeBytes":  72955625,
                     "notes":  [
                                   "OneRoute 0.8.155.1 - VLESS Real FD JNI Sentinel Call / Java FD Close Proof"
                               ]
