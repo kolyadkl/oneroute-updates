@@ -1,18 +1,18 @@
 {
     "schema":  "OneRouteUpdate.v1",
-    "release":  "0.8.155.57.3",
+    "release":  "0.8.155.57.4",
     "android":  {
-                    "versionName":  "0.8.155.57.3",
-                    "versionCode":  322,
+                    "versionName":  "0.8.155.57.4",
+                    "versionCode":  323,
                     "asset":  "OneRoute.apk",
                     "apkUrl":  "https://github.com/kolyadkl/oneroute-updates/releases/latest/download/OneRoute.apk",
-                    "sha256":  "2ce6a8eae36f49797e6bfe914e41242be365741258211da3e77274fb53d9051a",
-                    "sizeBytes":  148047523,
-                    "apkName":  "OneRoute_0.8.155.57.3_debug.apk",
+                    "sha256":  "bb211768e5c1d39ab3dbe1a6e0f4d7d3397cbcc79322f29be09696f0ab0ea461",
+                    "sizeBytes":  148047531,
+                    "apkName":  "OneRoute_0.8.155.57.4_debug.apk",
                     "notes":  [
-                                  "OneRoute 0.8.155.57.3 - profile-aware failover fixed; boot VPN restore and real WireGuard/XHTTP emulator scenarios verified; AmneziaWG x86 emulator lifecycle hardened"
+                                  "OneRoute 0.8.155.57.4 - fixes Android 10-13 automation-service crashes by aligning the declared and requested foreground-service type masks"
                               ]
                 },
-    "versionName":  "0.8.155.57.3",
-    "versionCode":  322
+    "versionName":  "0.8.155.57.4",
+    "versionCode":  323
 }
