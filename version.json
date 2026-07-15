@@ -1,18 +1,18 @@
 {
     "schema":  "OneRouteUpdate.v1",
-    "release":  "0.8.155.57.8",
+    "release":  "0.8.155.57.9",
     "android":  {
-                    "versionName":  "0.8.155.57.8",
-                    "versionCode":  327,
+                    "versionName":  "0.8.155.57.9",
+                    "versionCode":  328,
                     "asset":  "OneRoute.apk",
                     "apkUrl":  "https://github.com/kolyadkl/oneroute-updates/releases/latest/download/OneRoute.apk",
-                    "sha256":  "ea8b0461a480074ab553d8ee8a037c3db21cec16fa9f19353ef4b444422f00bf",
-                    "sizeBytes":  134094511,
+                    "sha256":  "51ceae376ec011221f02077f2819d0f0ebbec2f7c4c266e7d29386492e5fb19f",
+                    "sizeBytes":  134097954,
                     "apkName":  "OneRoute.apk",
                     "notes":  [
                                   "OneRoute 0.8.155.57.7\n\nЧто исправлено\n- Устранена гонка остановки VpnService: отложенное завершение старого :vpn процесса больше не убивает только что запущенную VLESS-сессию.\n- AmneziaWG корректно закрывает backend при уничтожении сервиса и сохраняет точную причину ошибки запуска.\n- VLESS теперь подтверждает CONNECTED реальным публичным IP через локальный SOCKS Xray без циклического ожидания пользовательского TUN-трафика.\n- XHTTP переиспользует один HTTP/2/HTTP/3 carrier (xmux maxConnections=1), не создавая всплеск параллельных соединений на стартовом DNS и фоновом трафике.\n- Ошибки VLESS классифицируются по фактической доступности endpoint; закрытый порт больше не выглядит как успешное подключение.\n- Исправлены lifecycle-контракты и проверка hash для изменённых WireGuard/Xray компонентов.\n\nПодтверждено\n- Полная debug и воспроизводимая production-сборка; production signing gate PASS.\n- WireGuard: handshake, RX/TX, CONNECTED, открытие nnmclub.to, rutracker.org и web.telegram.org в Chrome — PASS.\n- AmneziaWG: нативный запуск, handshake, RX/TX, CONNECTED и те же три сайта — PASS.\n- VLESS Reality XHTTP: Xray TUN, внешний IP, RX/TX, каждый из трёх сайтов и корректная остановка — PASS.\n- Тот же XHTTP-профиль отдельно проверен официальным Xray-core 26.6.27 на Windows: ответы от всех трёх сайтов получены.\n- Приватные тестовые профили не включены ни в APK, ни в исходный архив.\n\nИзвестное внешнее ограничение\n- Переданный VLESS Reality TCP endpoint 77.221.133.139:56875 не принимает TCP-соединение ни с Windows, ни с эмулятора. Таймаут возникает до VLESS/REALITY-рукопожатия, поэтому исправить его клиентским кодом невозможно. OneRoute показывает XRAY_ENDPOINT_TCP_UNREACHABLE.\n- Проверка ARM-телефона отложена по решению владельца проекта.\n\nОбновление\n- APK подписан тем же production-сертификатом, что и 0.8.155.57.6, и устанавливается поверх 57.6 штатно.\n\nЧто проверять\n1. Установку поверх production-подписанной 0.8.155.57.6 с сохранением данных.\n2. WG, AWG и XHTTP в домашней сети и при переходе Wi-Fi → 4G/5G.\n3. VLESS Reality TCP после восстановления доступности серверного порта 56875."
                               ]
                 },
-    "versionName":  "0.8.155.57.8",
-    "versionCode":  327
+    "versionName":  "0.8.155.57.9",
+    "versionCode":  328
 }
