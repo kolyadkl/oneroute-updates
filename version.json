@@ -1,18 +1,18 @@
 {
     "schema":  "OneRouteUpdate.v1",
-    "release":  "0.8.155.57.4",
+    "release":  "0.8.155.57.5",
     "android":  {
-                    "versionName":  "0.8.155.57.4",
-                    "versionCode":  323,
+                    "versionName":  "0.8.155.57.5",
+                    "versionCode":  324,
                     "asset":  "OneRoute.apk",
                     "apkUrl":  "https://github.com/kolyadkl/oneroute-updates/releases/latest/download/OneRoute.apk",
-                    "sha256":  "bb211768e5c1d39ab3dbe1a6e0f4d7d3397cbcc79322f29be09696f0ab0ea461",
-                    "sizeBytes":  148047531,
-                    "apkName":  "OneRoute_0.8.155.57.4_debug.apk",
+                    "sha256":  "8fd7fb5fcc14e361d8a1dc7c92b5d76e663dcedae09ee43c7e64aad8b37ce38b",
+                    "sizeBytes":  149334756,
+                    "apkName":  "OneRoute_0.8.155.57.5_debug.apk",
                     "notes":  [
-                                  "OneRoute 0.8.155.57.4 - fixes Android 10-13 automation-service crashes by aligning the declared and requested foreground-service type masks"
+                                  "OneRoute 0.8.155.57.5 - fixes native WireGuard crash during VLESS/WireGuard switching and repeated statistics reads; restores reliable external-IP detection with provider fallback; adds secret-free persistent Java crash traces"
                               ]
                 },
-    "versionName":  "0.8.155.57.4",
-    "versionCode":  323
+    "versionName":  "0.8.155.57.5",
+    "versionCode":  324
 }
