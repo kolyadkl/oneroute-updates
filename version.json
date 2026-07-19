@@ -1,18 +1,18 @@
 {
     "schema":  "OneRouteUpdate.v1",
-    "release":  "0.8.155.57.13",
+    "release":  "0.8.155.57.14",
     "android":  {
-                    "versionName":  "0.8.155.57.13",
-                    "versionCode":  332,
+                    "versionName":  "0.8.155.57.14",
+                    "versionCode":  333,
                     "asset":  "OneRoute.apk",
                     "apkUrl":  "https://github.com/kolyadkl/oneroute-updates/releases/latest/download/OneRoute.apk",
-                    "sha256":  "b9115256ffceb3a68edc3ee342246d0958e830af31d67cc36d30de8bb7560f87",
-                    "sizeBytes":  134100332,
+                    "sha256":  "012059a208f616e149c07e0ae9927ee228d308d19cfb7b4c2e25d736a911d17b",
+                    "sizeBytes":  134101386,
                     "apkName":  "OneRoute.apk",
                     "notes":  [
-                                  "OneRoute 0.8.155.57.13\n\nИсправление потери интернета при смене VPN-профиля\n- VPN-процесс больше не завершается, пока Android не подтвердит освобождение VPN-транспорта и TUN.\n- Устранён промежуток, когда маршруты ещё вели в VPN, а обслуживающий процесс уже был завершён.\n- Если Android долго не снимает VPN-транспорт, OneRoute не делает повторные SIGKILL и сохраняет безопасное состояние.\n\nЧто проверять\n- VPN stop verification, failover handoff и failover cleanup contracts: PASS.\n- Debug и signed release APK: BUILD SUCCESSFUL.\n- Реальное подключение/отключение VLESS XHTTP на эмуляторе: без устойчивой потери интернета.\n- Cross-engine E2E: сломанный XHTTP → подтверждённая остановка → WireGuard → реальный Chrome-трафик: OK (1 test)."
+                                  "OneRoute 0.8.155.57.14\n\nИсправление долгого отключения AmneziaWG\n- OneRoute явно останавливает Android GoBackend VpnService, владеющий AWG TUN/NetworkAgent.\n- Остановка больше не зависит от живого PID процесса `:awg`: даже после его аварийного завершения системный VPN снимается.\n- AWG health и cross-process ledger атомарно очищаются в основном процессе.\n- Ошибка остановки больше не показывается как «VPN недоступен» или «не удалось запустить WireGuard».\n\nЧто проверять\n- AmneziaWG runtime и VPN stop verification contracts: PASS.\n- Debug APK: BUILD SUCCESSFUL.\n- AWG с реальным профилем: handshake, RX/TX, OFF, снятие Android VPN, session STOPPED: PASS.\n- Аварийный сценарий `:awg` SIGKILL перед OFF: Android VPN снят, health очищен, session STOPPED: PASS.\n- Android instrumentation: OK (2 tests)."
                               ]
                 },
-    "versionName":  "0.8.155.57.13",
-    "versionCode":  332
+    "versionName":  "0.8.155.57.14",
+    "versionCode":  333
 }
