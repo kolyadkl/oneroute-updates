@@ -1,18 +1,18 @@
 {
     "schema":  "OneRouteUpdate.v1",
-    "release":  "0.8.155.57.14",
+    "release":  "0.8.155.57.15",
     "android":  {
-                    "versionName":  "0.8.155.57.14",
-                    "versionCode":  333,
+                    "versionName":  "0.8.155.57.15",
+                    "versionCode":  334,
                     "asset":  "OneRoute.apk",
                     "apkUrl":  "https://github.com/kolyadkl/oneroute-updates/releases/latest/download/OneRoute.apk",
-                    "sha256":  "012059a208f616e149c07e0ae9927ee228d308d19cfb7b4c2e25d736a911d17b",
-                    "sizeBytes":  134101386,
+                    "sha256":  "2f64fd52ff639c352904d882082a3c059d08a8027c605f5c71685cab75e516cf",
+                    "sizeBytes":  134101767,
                     "apkName":  "OneRoute.apk",
                     "notes":  [
-                                  "OneRoute 0.8.155.57.14\n\nИсправление долгого отключения AmneziaWG\n- OneRoute явно останавливает Android GoBackend VpnService, владеющий AWG TUN/NetworkAgent.\n- Остановка больше не зависит от живого PID процесса `:awg`: даже после его аварийного завершения системный VPN снимается.\n- AWG health и cross-process ledger атомарно очищаются в основном процессе.\n- Ошибка остановки больше не показывается как «VPN недоступен» или «не удалось запустить WireGuard».\n\nЧто проверять\n- AmneziaWG runtime и VPN stop verification contracts: PASS.\n- Debug APK: BUILD SUCCESSFUL.\n- AWG с реальным профилем: handshake, RX/TX, OFF, снятие Android VPN, session STOPPED: PASS.\n- Аварийный сценарий `:awg` SIGKILL перед OFF: Android VPN снят, health очищен, session STOPPED: PASS.\n- Android instrumentation: OK (2 tests)."
+                                  "OneRoute 0.8.155.57.15\n\nИсправление списка профилей VPN\n- В группе сервера теперь отображаются все подключения: четвёртый и последующие профили больше не обрезаются вложенным списком.\n- Выключенный, но ранее выбранный профиль больше не получает голубую рамку активной VPN-сессии.\n- Акцент карточки показывается только профилю, которому действительно принадлежит текущая VPN-сессия.\n\nЧто проверять\n- Группа из WireGuard, AmneziaWG, VLESS Reality TCP и VLESS XHTTP: все 4 карточки отрисованы полностью.\n- VLESS XHTTP расположен перед разделом «Управление» и остаётся доступен для подключения.\n- У всех выключенных карточек обычная неактивная рамка.\n- Целевой Android instrumentation UI-тест: PASS.\n- Реальные скриншоты экрана эмулятора до и после прокрутки проверены."
                               ]
                 },
-    "versionName":  "0.8.155.57.14",
-    "versionCode":  333
+    "versionName":  "0.8.155.57.15",
+    "versionCode":  334
 }
