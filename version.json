@@ -1,18 +1,18 @@
 {
     "schema":  "OneRouteUpdate.v1",
-    "release":  "0.8.155.57.16",
+    "release":  "0.8.155.57.17",
     "android":  {
-                    "versionName":  "0.8.155.57.16",
-                    "versionCode":  335,
+                    "versionName":  "0.8.155.57.17",
+                    "versionCode":  336,
                     "asset":  "OneRoute.apk",
                     "apkUrl":  "https://github.com/kolyadkl/oneroute-updates/releases/latest/download/OneRoute.apk",
-                    "sha256":  "5823a62522e94fca79b6295f0fbf44c4d5aa431b7fe819e635f967e260bb73d6",
-                    "sizeBytes":  134102849,
+                    "sha256":  "7eecc2a01bd52d8aea3382426ab58f9814adedfe04ef2ba5307e9be443154c29",
+                    "sizeBytes":  134103183,
                     "apkName":  "OneRoute.apk",
                     "notes":  [
-                                  "OneRoute 0.8.155.57.16\n\nДиагностика за последние 24 часа\n- OneRoute постоянно сохраняет безопасную хронологию подключений, отключений, reconnect/failover, смены сети, ошибок и фоновой работы.\n- Раз в минуту сохраняется контрольный снимок VPN: протокол, состояние сессии, generation и RX/TX; смена состояния записывается сразу.\n- Журнал общий для основного процесса, AmneziaWG и Xray, защищён межпроцессной блокировкой.\n- Записи старше 24 часов автоматически удаляются; максимальный размер журнала ограничен 8 МБ.\n- PrivateKey, PresharedKey, пароли, токены и полные vless:// / vpn:// ссылки маскируются до записи.\n- В диагностический ZIP добавлен файл runtime_events_24h.txt.\n\nЧто проверять\n- Очистка события старше 24 часов: PASS.\n- Сохранение актуального события: PASS.\n- Маскировка тестовых ключей, токенов и ссылок: PASS.\n- Реальное создание ZIP и наличие runtime_events_24h.txt: PASS.\n- Android instrumentation: OK (2 tests)."
+                                  "OneRoute 0.8.155.57.17\n\nДиагностика за последние 24 часа\n- OneRoute постоянно сохраняет безопасную хронологию подключений, отключений, reconnect/failover, смены сети, ошибок и фоновой работы.\n- Раз в минуту сохраняется контрольный снимок VPN: протокол, состояние сессии, generation и RX/TX; смена состояния записывается сразу.\n- Журнал общий для основного процесса, AmneziaWG и Xray, защищён межпроцессной блокировкой.\n- Записи старше 24 часов автоматически удаляются; максимальный размер журнала ограничен 8 МБ.\n- PrivateKey, PresharedKey, пароли, токены и полные vless:// / vpn:// ссылки маскируются до записи.\n- В диагностический ZIP добавлен файл runtime_events_24h.txt.\n\nЧто проверять\n- Очистка события старше 24 часов: PASS.\n- Сохранение актуального события: PASS.\n- Маскировка тестовых ключей, токенов и ссылок: PASS.\n- Реальное создание ZIP и наличие runtime_events_24h.txt: PASS.\n- Android instrumentation: OK (2 tests)."
                               ]
                 },
-    "versionName":  "0.8.155.57.16",
-    "versionCode":  335
+    "versionName":  "0.8.155.57.17",
+    "versionCode":  336
 }
