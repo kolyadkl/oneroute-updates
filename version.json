@@ -1,19 +1,19 @@
 {
     "schema":  "OneRouteUpdate.v1",
-    "release":  "0.8.155.57.27",
+    "release":  "0.8.155.57.28",
     "android":  {
-                    "versionName":  "0.8.155.57.27",
-                    "versionCode":  346,
+                    "versionName":  "0.8.155.57.28",
+                    "versionCode":  347,
                     "asset":  "OneRoute.apk",
-                    "apkUrl":  "https://updates.77-221-133-139.sslip.io/releases/v0.8.155.57.27/OneRoute.apk",
-                    "sha256":  "016f06a3ef6838e338323125d8da03b7b158b8ae02e5354b9b03dd69511acc6a",
-                    "sizeBytes":  134219053,
+                    "apkUrl":  "https://updates.77-221-133-139.sslip.io/releases/v0.8.155.57.28/OneRoute.apk",
+                    "apkFallbackUrl":  "https://github.com/kolyadkl/oneroute-updates/releases/download/v0.8.155.57.28/OneRoute.apk",
+                    "sha256":  "2f1c077c4a8aa4c3464a0b8ead394c633ac9d044dc6ab2640e913d2cc22ced87",
+                    "sizeBytes":  134220135,
                     "apkName":  "OneRoute.apk",
                     "notes":  [
-                                  "OneRoute 0.8.155.57.27\n\nСтабильность YouTube Music на Honor/Huawei\n- Смена внутреннего Android Network handle больше не вызывает безусловную остановку и повторный запуск VPN.\n- При возврате подтверждённой Wi-Fi или 4G-сети текущая VPN-сессия сохраняется.\n- Добавлены диагностические счётчики потерь базовой сети и сохранённых VPN-сессий.\n\nЧто проверять\n- WireGuard: возобновление трафика после обрыва, повторные переходы и soak — PASS.\n- AmneziaWG: возобновление трафика, повторные переходы и soak — PASS.\n- VLESS XHTTP: возобновление трафика, повторные переходы, Doze и soak — PASS.\n- Подписанная release-сборка и проверка сертифика — PASS."
-                              ],
-                    "apkFallbackUrl":  "https://github.com/kolyadkl/oneroute-updates/releases/download/v0.8.155.57.27/OneRoute.apk"
+                                  "OneRoute 0.8.155.57.28\n\nБыстрый и устойчивый канал обновлений\n- APK скачивается с нидерландского HTTPS-сервера.\n- Если NL-сервер недоступен, приложение автоматически переходит на GitHub.\n- Проверка метаданных также имеет автоматический резервный канал.\n- Исправлено зависание VPN-уведомления в состоянии «Подключаем».\n\nЧто проверять\n- Обнаружение 0.8.155.57.28 в версии 0.8.155.57.27.\n- Загрузка APK с NL-сервера, проверка размера и SHA-256.\n- Установка поверх 0.8.155.57.27 с сохранением профилей и настроек.\n- Подписанная release-сборка и проверка сертифика — PASS."
+                              ]
                 },
-    "versionName":  "0.8.155.57.27",
-    "versionCode":  346
+    "versionName":  "0.8.155.57.28",
+    "versionCode":  347
 }
