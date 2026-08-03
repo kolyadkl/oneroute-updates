@@ -1,18 +1,18 @@
 {
     "schema":  "OneRouteUpdate.v1",
-    "release":  "0.8.155.57.25",
+    "release":  "0.8.155.57.26",
     "android":  {
-                    "versionName":  "0.8.155.57.25",
-                    "versionCode":  344,
+                    "versionName":  "0.8.155.57.26",
+                    "versionCode":  345,
                     "asset":  "OneRoute.apk",
                     "apkUrl":  "https://github.com/kolyadkl/oneroute-updates/releases/latest/download/OneRoute.apk",
-                    "sha256":  "44906126660d668eee9e400ed6c805517a98c427ad27eac0174c57cd19200438",
-                    "sizeBytes":  134215005,
+                    "sha256":  "5a32ac1746001c383f9c59710f220bd946f6a91eba0e43eea2d025ca4275ea31",
+                    "sizeBytes":  134219330,
                     "apkName":  "OneRoute.apk",
                     "notes":  [
-                                  "OneRoute 0.8.155.57.25\n\nСтабильность YouTube Music на Honor/Huawei\n- Смена внутреннего Android Network handle больше не вызывает безусловную остановку и повторный запуск VPN.\n- При возврате подтверждённой Wi-Fi или 4G-сети текущая VPN-сессия сохраняется.\n- Добавлены диагностические счётчики потерь базовой сети и сохранённых VPN-сессий.\n\nЧто проверять\n- WireGuard: возобновление трафика после обрыва, повторные переходы и soak — PASS.\n- AmneziaWG: возобновление трафика, повторные переходы и soak — PASS.\n- VLESS XHTTP: возобновление трафика, повторные переходы, Doze и soak — PASS.\n- Подписанная release-сборка и проверка сертифика — PASS."
+                                  "OneRoute 0.8.155.57.26\n\nСтабильность YouTube Music на Honor/Huawei\n- Смена внутреннего Android Network handle больше не вызывает безусловную остановку и повторный запуск VPN.\n- При возврате подтверждённой Wi-Fi или 4G-сети текущая VPN-сессия сохраняется.\n- Добавлены диагностические счётчики потерь базовой сети и сохранённых VPN-сессий.\n\nЧто проверять\n- WireGuard: возобновление трафика после обрыва, повторные переходы и soak — PASS.\n- AmneziaWG: возобновление трафика, повторные переходы и soak — PASS.\n- VLESS XHTTP: возобновление трафика, повторные переходы, Doze и soak — PASS.\n- Подписанная release-сборка и проверка сертифика — PASS."
                               ]
                 },
-    "versionName":  "0.8.155.57.25",
-    "versionCode":  344
+    "versionName":  "0.8.155.57.26",
+    "versionCode":  345
 }
