@@ -5,13 +5,14 @@
                     "versionName":  "0.8.155.57.27",
                     "versionCode":  346,
                     "asset":  "OneRoute.apk",
-                    "apkUrl":  "https://github.com/kolyadkl/oneroute-updates/releases/latest/download/OneRoute.apk",
+                    "apkUrl":  "https://updates.77-221-133-139.sslip.io/releases/v0.8.155.57.27/OneRoute.apk",
                     "sha256":  "016f06a3ef6838e338323125d8da03b7b158b8ae02e5354b9b03dd69511acc6a",
                     "sizeBytes":  134219053,
                     "apkName":  "OneRoute.apk",
                     "notes":  [
                                   "OneRoute 0.8.155.57.27\n\nСтабильность YouTube Music на Honor/Huawei\n- Смена внутреннего Android Network handle больше не вызывает безусловную остановку и повторный запуск VPN.\n- При возврате подтверждённой Wi-Fi или 4G-сети текущая VPN-сессия сохраняется.\n- Добавлены диагностические счётчики потерь базовой сети и сохранённых VPN-сессий.\n\nЧто проверять\n- WireGuard: возобновление трафика после обрыва, повторные переходы и soak — PASS.\n- AmneziaWG: возобновление трафика, повторные переходы и soak — PASS.\n- VLESS XHTTP: возобновление трафика, повторные переходы, Doze и soak — PASS.\n- Подписанная release-сборка и проверка сертифика — PASS."
-                              ]
+                              ],
+                    "apkFallbackUrl":  "https://github.com/kolyadkl/oneroute-updates/releases/download/v0.8.155.57.27/OneRoute.apk"
                 },
     "versionName":  "0.8.155.57.27",
     "versionCode":  346
