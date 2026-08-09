@@ -1,19 +1,19 @@
 {
     "schema":  "OneRouteUpdate.v1",
-    "release":  "0.8.2.7",
+    "release":  "0.8.2.8",
     "android":  {
-                    "versionName":  "0.8.2.7",
-                    "versionCode":  357,
+                    "versionName":  "0.8.2.8",
+                    "versionCode":  358,
                     "asset":  "OneRoute.apk",
-                    "apkUrl":  "https://updates.77-221-133-139.sslip.io/releases/v0.8.2.7/OneRoute.apk",
-                    "apkFallbackUrl":  "https://github.com/kolyadkl/oneroute-updates/releases/download/v0.8.2.7/OneRoute.apk",
-                    "sha256":  "ddf03b9cae154dfac741bb406bb7f40b330e60346f3ccc58835f791417b02fde",
-                    "sizeBytes":  134228790,
+                    "apkUrl":  "https://updates.77-221-133-139.sslip.io/releases/v0.8.2.8/OneRoute.apk",
+                    "apkFallbackUrl":  "https://github.com/kolyadkl/oneroute-updates/releases/download/v0.8.2.8/OneRoute.apk",
+                    "sha256":  "46cde300b4c75b838c93d27bc3e0b671b998288cdc6c91bb3b97f9a25109f8e0",
+                    "sizeBytes":  134230497,
                     "apkName":  "OneRoute.apk",
                     "notes":  [
-                                  "OneRoute 0.8.2.7\n\nОбязательное обновление встроенных маршрутов\n- После обновления показывается одноразовое окно с единственной кнопкой «Обновить».\n- Текущие маршруты перед заменой сохраняются в backup.\n- Устанавливается новый набор: 1 210 DNS-доменов и 108 IP/CIDR-маршрутов.\n- После успешного обновления окно больше не появляется.\n- Сохранён быстрый NL-канал обновлений с автоматическим GitHub fallback.\n\nЧто проверять\n- Окно не закрывается кнопкой «Назад» и тапом вне окна — PASS.\n- Backup старых списков и замена на 108/1210 — PASS.\n- Повторный запуск без повторного окна — PASS.\n- Подписанная release-сборка и проверка сертифика — PASS."
+                                  "OneRoute 0.8.2.8\n\nОбязательное обновление встроенных маршрутов\n- После обновления показывается одноразовое окно с единственной кнопкой «Обновить».\n- Текущие маршруты перед заменой сохраняются в backup.\n- Устанавливается новый набор: 1 210 DNS-доменов и 108 IP/CIDR-маршрутов.\n- После успешного обновления окно больше не появляется.\n- Сохранён быстрый NL-канал обновлений с автоматическим GitHub fallback.\n\nЧто проверять\n- Окно не закрывается кнопкой «Назад» и тапом вне окна — PASS.\n- Backup старых списков и замена на 108/1210 — PASS.\n- Повторный запуск без повторного окна — PASS.\n- Подписанная release-сборка и проверка сертифика — PASS."
                               ]
                 },
-    "versionName":  "0.8.2.7",
-    "versionCode":  357
+    "versionName":  "0.8.2.8",
+    "versionCode":  358
 }
