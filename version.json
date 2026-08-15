@@ -1,20 +1,20 @@
 {
     "schema":  "OneRouteUpdate.v1",
-    "release":  "0.8.2.9",
+    "release":  "0.8.2.10",
     "android":  {
-                    "versionName":  "0.8.2.9",
-                    "versionCode":  359,
+                    "versionName":  "0.8.2.10",
+                    "versionCode":  360,
                     "asset":  "OneRoute.apk",
-                    "apkUrl":  "https://updates.144-31-62-80.sslip.io/projects/oneroute/current/OneRoute.apk",
+                    "apkUrl":  "https://github.com/kolyadkl/oneroute-updates/releases/download/current/OneRoute.apk",
                     "apkFallbackUrl":  "https://updates.77-221-133-139.sslip.io/projects/oneroute/current/OneRoute.apk",
-                    "apkLastFallbackUrl":  "https://github.com/kolyadkl/oneroute-updates/releases/latest/download/OneRoute.apk",
-                    "sha256":  "200af9765501620f4f04978d5bd7e2adb9341da497d82179220c54b624860f13",
-                    "sizeBytes":  134230587,
+                    "apkLastFallbackUrl":  "https://github.com/kolyadkl/oneroute-updates/releases/download/current/OneRoute.apk",
+                    "sha256":  "90a856afb42333f132a0966bf2455032defab594507aa3ea49029b3f5810865a",
+                    "sizeBytes":  134234817,
                     "apkName":  "OneRoute.apk",
                     "notes":  [
-                                  "OneRoute 0.8.2.9\n\nОбязательное обновление встроенных маршрутов\n- После обновления показывается одноразовое окно с единственной кнопкой «Обновить».\n- Текущие маршруты перед заменой сохраняются в backup.\n- Устанавливается новый набор: 1 210 DNS-доменов и 108 IP/CIDR-маршрутов.\n- После успешного обновления окно больше не появляется.\n- Сохранён быстрый NL-канал обновлений с автоматическим GitHub fallback.\n\nЧто проверять\n- Окно не закрывается кнопкой «Назад» и тапом вне окна — PASS.\n- Backup старых списков и замена на 108/1210 — PASS.\n- Повторный запуск без повторного окна — PASS.\n- Подписанная release-сборка и проверка сертифика — PASS."
+                                  "OneRoute 0.8.2.10\n\nНадёжное обновление DNS-маршрутов\n- Свежий кэш до 24 часов не обновляется повторно.\n- Кэш возрастом 1–7 дней обновляется незаметно в фоне.\n- Для пустого или старше 7 дней кэша показывается защищённое окно с прогрессом и ETA.\n- До восьми DNS-запросов выполняются параллельно; старые рабочие записи сохраняются при временных ошибках.\n- Важные домены ChatGPT, Claude и Anthropic разрешаются параллельно перед подключением с общим пределом 8 секунд.\n- Работающий VPN больше не перезапускается автоматически после обновления маршрутов.\n\nКаналы обновления\n- Стабильный projectId: oneroute.\n- Проверка манифеста и APK: Германия, затем Нидерланды, затем GitHub.\n- Каждый APK проверяется по размеру и SHA-256.\n- Публикация использует единый атомарно переключаемый канал current.\n\nЧто проверять\n- Пустой кэш, прогресс и блокировка кнопки «Назад» на эмуляторе — PASS.\n- Повторный запуск со свежим кэшем без повторного обновления — PASS.\n- Полный Android build-gate — PASS.\n- Подписанная release-сборка и сертификат — проверяются перед публикацией."
                               ]
                 },
-    "versionName":  "0.8.2.9",
-    "versionCode":  359
+    "versionName":  "0.8.2.10",
+    "versionCode":  360
 }
